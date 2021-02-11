@@ -1,5 +1,5 @@
-//32 bit sayılarla Arithmetic işlemler yapan modül. 
-//Tüm instructionların yapması gerekenler burada halledildi. 
+// Module that performs Arithmetic operations with 32 bit numbers.
+// All instructions must do is taken care of here.
 module ALU32bit(ALU_result, sig_branch, opcode, rs_content, rt_content, shamt, ALU_control, immediate);
 	
 	input [5:0] ALU_control, opcode;
